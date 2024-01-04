@@ -1,0 +1,15 @@
+h1,
+h2,
+p {
+  background-color: red;
+  /* display: inline; inline-block */
+}
+
+a {
+  background-color: red;
+}
+
+span {
+  margin: 10px;
+  background-color: red;
+}
