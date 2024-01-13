@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      fieldset {
+        width: 500px;
+      }
+      label {
+        width: 100%;
+        display: block;
+      }
+      input {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <div align="center">
+      <fieldset align="left">
+        <legend align="center">Login</legend>
+        <form action="./Profile.html" align="right">
+          <label align="left" for="email">
+            Email
+            <input type="email" id="email" required />
+          </label>
+          <br />
+          <label align="left" for="password">
+            Password
+            <input
+              required
+              id="password"
+              minlength="8"
+              maxlength="16"
+              type="password"
+            />
+          </label>
+          <br />
+          <button type="submit">Yuborish</button>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
