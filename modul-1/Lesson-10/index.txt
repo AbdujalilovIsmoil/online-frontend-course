@@ -1,0 +1,51 @@
+5. margin va padding farqi ?  
+
+6. list-style: 
+    1. list-style-type 
+    2. list-style-position 
+    3. list-style-image 
+
+7. opacity
+
+8. display: 
+    1. none
+    2. inline-block 
+    3. block 
+    4. inline
+
+9. visibility 
+
+10. overflow
+
+1. outline: 
+    1. outline-color
+    2. outline-style 
+    3. outline-width
+    4. outline-offset 
+
+2. attributes:
+    1. [align]
+    2. [class*="har qanday text"] = class ni ichidagi ma'lumotlarni izlab style beradi. 
+    3. [class|="har qanday text"] = attribute ga nima yozilgan bo'lsa, boshidagi shunga style beradi. 
+    4. [class^="har qanday text"] = class ni bosh nomi nima berilgan bo'lsa, shunga style beradi 
+    5. [class$="har qanday text"] = class ni ohirini nomi nima bilan tugasa, shunga style beradi. 
+
+3. pseudo classes: 
+    1. :focus - tab knopkasi bosilgandagi holati 
+    2. :hover - sichqonchani olib kelgandagi holati 
+    3. :active - sichqoncha bosilgandagi holati 
+    4. :visited - user bitta saytga kirib chiqqandan keyingi holati
+    5. :link - user hech qanday saytga kirib chiqmagandagi holati. 
+    6. :first-child - birinchi elementni olib beradi. 
+    7. :last-child - eng ohirgi elementni olib beradi. 
+    8. :nth-child(defaultNumber) - birinchi tartibma-tartib hohlagan elementni olib beradi. 
+    9. :nth-last-child(defaultNumber) - ohirgi tartibma-tartib hohlagan elementni olib beradi. 
+    10. :not(attributeName) bunga hali attribute nomi berilmagan holatida style beriladi. 
+
+4. pseudo elements:
+    1. ::first-line - birinchi qatorni olib beradi. 
+    2. ::first-letter - birinchi harfni olib beradi. 
+    3. ::marker - ul,ol larga faqat ishlatiladi. 
+    4. ::selection - barcha yozuvlarga o'z ta'sirini o'tkazadi. 
+    5. ::after - elementni oldi tomonidan qo'shadi.  
+    6. ::before - elementdan keyin qo'shadi.
